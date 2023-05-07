@@ -1,0 +1,13 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+///
+///
+
+@use './components/faq-component/faq-component.scss';
+@import '/src/global-styles/style.scss';
+
+#home-page {
+  @include flex(center, center, row);
+  min-height: 100vh;
+  background-color: var(--canvas-color);
+}
